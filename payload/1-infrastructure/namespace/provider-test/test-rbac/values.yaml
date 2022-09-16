@@ -1,0 +1,15 @@
+rbac:
+  serviceAccount:
+    name: ''
+    namespace: ''
+  clusterScope: false
+  roles:
+    - name: cluster-admin
+  rules:
+    - apiGroups:
+        - <nil>
+      resources:
+        - configmaps
+      resourceNames: []
+      verbs:
+        - <nil>
